@@ -19,6 +19,3 @@ while True:
         if user_month in i:
             print('Время года: ', i[0])
             break
-
-
-
