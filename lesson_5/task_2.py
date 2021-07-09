@@ -7,4 +7,3 @@ with open('my_file_2.txt', 'r', encoding='UTF-8') as my_file:
     print(f'Строк в файле: {len(a)} шт.')
     for i, val in enumerate(a):
         print(f'В {i}-й строке {len(val)} символов')
-
