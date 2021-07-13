@@ -1,7 +1,7 @@
 from time import sleep
 
 
-class trafficlight:
+class TrafficLight:
     __color = {1: ['red', 7],
                2: ['yellow', 2],
                3: ['green', 4]}
