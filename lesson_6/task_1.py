@@ -13,5 +13,5 @@ class TrafficLight:
                 sleep(self.__color[key][1])
 
 
-trafficlight_1 = trafficlight()
+trafficlight_1 = TrafficLight()
 trafficlight_1.running()
