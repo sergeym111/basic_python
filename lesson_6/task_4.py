@@ -51,6 +51,7 @@ class WorkCar(Car):
         else:
             print(f"{self.role} автомобиль {self.name} движется с допустимой скоростью")
 
+
 class SportCar(Car):
     role = 'Спортивный'
 
@@ -60,6 +61,7 @@ class SportCar(Car):
 
     def show_speed(self):
         print(f"{self.role} автомобиль {self.name} движется со скоростью {self.speed}")
+
 
 car_1 = Car(n='BMW')
 car_1.go(70)
