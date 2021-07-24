@@ -9,7 +9,7 @@ class ComplexOps:
         return f'= {self.x + other.x} + {self.y + other.y} * i'
 
     def __mul__(self, other):
-        print(f'Произведение z1 и z2 равно')
+        print(f'Произведение равно')
         return f'= {self.x * other.x - self.y * other.y} + {self.x * other.y - self.y * other.x} * i'
 
     def __str__(self):
