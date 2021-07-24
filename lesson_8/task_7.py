@@ -5,19 +5,20 @@ class ComplexOps:
         self.out = f"{x} + {y} * i"
 
     def __add__(self, other):
-        print(f'Сумма z1 и z2 равна')
-        return f'z = {self.x + other.x} + {self.y + other.y} * i'
+        print(f'Сумма равна')
+        return f'= {self.x + other.x} + {self.y + other.y} * i'
 
     def __mul__(self, other):
         print(f'Произведение z1 и z2 равно')
-        return f'z = {self.x * other.x - self.y * other.y} + {self.x * other.y - self.y * other.x} * i'
+        return f'= {self.x * other.x - self.y * other.y} + {self.x * other.y - self.y * other.x} * i'
 
     def __str__(self):
-        return f'z = {self.x} + {self.y} * i'
+        return f'= {self.x} + {self.y} * i'
 
 
-z_1 = ComplexOps(6, 7)
-z_2 = ComplexOps(1, 5)
-print(z_1)
-print(z_1 + z_2)
-print(z_1 * z_2)
+c_1 = ComplexOps(6, 7)
+c_2 = ComplexOps(1, 5)
+print('c_1', c_1)
+print('c_2', c_2)
+print('c_1 + c_2', c_1 + c_2)
+print('c_1 * c_2', c_1 * c_2)
